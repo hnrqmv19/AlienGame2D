@@ -3,7 +3,7 @@ class Settings:
     
     def __init__(self):
         # Configurações da tela
-        self.screen_width = 1200
+        self.screen_width = 1200        
         self.screen_height = 800
         self.bg_color = (230, 230, 230)  # Cor de fundo (cinza claro)
         self.ship_speed = 1.5 # Velocidade da nave
@@ -13,7 +13,7 @@ class Settings:
         self.bullet_width = 3 # Largura dos projéteis   
         self.bullet_height = 15 # Altura dos projéteis
         self.bullet_color = (60, 60, 60) # Cor dos projeteis
-        self.bullet_allowed = 1 # Número máximo de projéteis que podem existir na tela ao mesmo tempo
+        self.bullet_allowed = 50 # Número máximo de projéteis que podem existir na tela ao mesmo tempo
         
         # Configurações do alien
         self.alien_speed = .3 # Velocidade dos alienígenas
